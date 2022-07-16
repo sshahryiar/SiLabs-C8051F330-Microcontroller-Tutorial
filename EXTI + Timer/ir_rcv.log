@@ -1,0 +1,16 @@
+0	1	mikroc8051.exe -MSF -DBG -pC8051F330 -ES -DL -O11111114 -fo12.25 -N"E:\Current_Works\C8051F3xx Tutorial\Code\EXTI + Timer\ir_rcv.mcp51" -SP"d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\" -SP"E:\Current_Works\C8051F3xx Tutorial\Code\EXTI + Timer\" -SP"d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\SILABS\" "ir_rcv.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_Conversions.mcl"	 
+diagnostics: 0	122	Compilation Started	sw_i2c.h
+hint: 0	1004	interrupt handler (IR_receive at 0x0003)	ir_rcv.c
+diagnostics: 205	123	Compiled Successfully	ir_rcv.c
+hint: 78	1164	Variable 'temp' has been eliminated by optimizer	ir_rcv.c
+hint: 51	1164	Variable 'i' has been eliminated by optimizer	ir_rcv.c
+diagnostics: 0	127	All files Compiled in 62 ms	 
+hint: 0	1144	Used BDATA RAM (bytes): 9 (56%) Free BDATA RAM (bytes): 7 (44%)	Used BDATA RAM (bytes): 9 (56%) Free BDATA RAM (bytes): 7 (44%)
+hint: 0	1144	Used DATA RAM (bytes): 100 (96%) Free DATA RAM (bytes): 4 (4%)	Used DATA RAM (bytes): 100 (96%) Free DATA RAM (bytes): 4 (4%)
+hint: 0	1144	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)
+hint: 0	1144	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)
+hint: 0	1144	Used ROM (bytes): 2553 (31%)  Free ROM (bytes): 5639 (69%)	Used ROM (bytes): 2553 (31%)  Free ROM (bytes): 5639 (69%)
+diagnostics: 0	125	Project Linked Successfully	ir_rcv.mcp51
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'ir_rcv.mcp51' completed: 109 ms	 
+diagnostics: 0	103	Finished successfully: 16 Jul 2022, 14:20:54	ir_rcv.mcp51
