@@ -1,0 +1,56 @@
+[DEVICE]
+Name=C8051F330
+Clock=12250000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=cap_meter.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[PLL_FACTOR]
+Value=1
+[FILES]
+Count=1
+File0=cap_meter.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=9
+File0=cap_meter.c
+File1=LCD_2_Wire.c
+File2=LCD_2_Wire.h
+File3=lcd_print.c
+File4=lcd_print.h
+File5=PCF8574.c
+File6=PCF8574.h
+File7=SW_I2C.c
+File8=SW_I2C.h
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\
+Path1=E:\Current_Works\C8051F3xx Tutorial\Code\Analog Comparator\
+Path2=d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\SILABS\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=0
+[EXPANDED NODES]
+Node1=Sources
+Count=1

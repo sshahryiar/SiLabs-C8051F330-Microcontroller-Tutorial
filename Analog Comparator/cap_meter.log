@@ -1,0 +1,16 @@
+0	1	mikroc8051.exe -MSF -DBG -pC8051F330 -ES -DL -O11111114 -fo12.25 -N"E:\Current_Works\C8051F3xx Tutorial\Code\Analog Comparator\cap_meter.mcp51" -SP"d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\" -SP"E:\Current_Works\C8051F3xx Tutorial\Code\Analog Comparator\" -SP"d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\SILABS\" "cap_meter.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	122	Compilation Started	sw_i2c.h
+hint: 0	1004	interrupt handler (Timer_1_ISR at 0x001B)	cap_meter.c
+hint: 0	1004	interrupt handler (Analog_Comparator_ISR at 0x0063)	cap_meter.c
+diagnostics: 217	123	Compiled Successfully	cap_meter.c
+hint: 78	1164	Variable 'temp' has been eliminated by optimizer	cap_meter.c
+diagnostics: 0	127	All files Compiled in 63 ms	 
+hint: 0	1144	Used BDATA RAM (bytes): 15 (94%) Free BDATA RAM (bytes): 1 (6%)	Used BDATA RAM (bytes): 15 (94%) Free BDATA RAM (bytes): 1 (6%)
+hint: 0	1144	Used DATA RAM (bytes): 100 (96%) Free DATA RAM (bytes): 4 (4%)	Used DATA RAM (bytes): 100 (96%) Free DATA RAM (bytes): 4 (4%)
+hint: 0	1144	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)
+hint: 0	1144	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)
+hint: 0	1144	Used ROM (bytes): 4815 (59%)  Free ROM (bytes): 3377 (41%)	Used ROM (bytes): 4815 (59%)  Free ROM (bytes): 3377 (41%)
+diagnostics: 0	125	Project Linked Successfully	cap_meter.mcp51
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'cap_meter.mcp51' completed: 110 ms	 
+diagnostics: 0	103	Finished successfully: 16 Jul 2022, 14:24:25	cap_meter.mcp51
