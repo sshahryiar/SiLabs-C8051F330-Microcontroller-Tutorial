@@ -1,0 +1,12 @@
+main
+	__CC2D
+	Init_Device
+		Timer_Init
+		Port_IO_Init
+		Oscillator_Init
+		Interrupts_Init
+		PCA_Init
+Timer_ISR
+	Div_16x16_U
+	segment_write
+		write_74HC595

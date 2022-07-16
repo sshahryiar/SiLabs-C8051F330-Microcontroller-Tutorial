@@ -1,0 +1,15 @@
+0	1	mikroc8051.exe -MSF -DBG -pC8051F330 -ES -DL -O11111114 -fo12.25 -N"E:\Current_Works\C8051F3xx Tutorial\Code\Timer\tmr.mcp51" -SP"d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\" -SP"E:\Current_Works\C8051F3xx Tutorial\Code\Timer\" -SP"D:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\SILABS\" "tmr.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+diagnostics: 0	122	Compilation Started	tmr.c
+hint: 0	1004	interrupt handler (Timer_2_ISR at 0x002B)	tmr.c
+hint: 0	1004	interrupt handler (Timer_3_ISR at 0x0073)	tmr.c
+diagnostics: 265	123	Compiled Successfully	tmr.c
+diagnostics: 0	127	All files Compiled in 47 ms	 
+hint: 0	1144	Used BDATA RAM (bytes): 0 (1%) Free BDATA RAM (bytes): 16 (99%)	Used BDATA RAM (bytes): 0 (1%) Free BDATA RAM (bytes): 16 (99%)
+hint: 0	1144	Used DATA RAM (bytes): 11 (11%) Free DATA RAM (bytes): 93 (89%)	Used DATA RAM (bytes): 11 (11%) Free DATA RAM (bytes): 93 (89%)
+hint: 0	1144	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)
+hint: 0	1144	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)
+hint: 0	1144	Used ROM (bytes): 882 (11%)  Free ROM (bytes): 7310 (89%)	Used ROM (bytes): 882 (11%)  Free ROM (bytes): 7310 (89%)
+diagnostics: 0	125	Project Linked Successfully	tmr.mcp51
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'tmr.mcp51' completed: 78 ms	 
+diagnostics: 0	103	Finished successfully: 16 Jul 2022, 14:01:20	tmr.mcp51
