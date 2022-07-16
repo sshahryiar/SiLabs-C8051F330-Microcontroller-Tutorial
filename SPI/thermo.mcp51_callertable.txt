@@ -1,0 +1,33 @@
+main
+	__CC2D
+	Init_Device
+		PCA_Init
+		Timer_Init
+		SPI_Init
+		Port_IO_Init
+		Oscillator_Init
+		Interrupts_Init
+	MAX31865_init
+		SPI1_Init_Advanced
+		MAX31865_write_byte
+			SPI_Write
+				__DoIFC
+	MAX31865_get_temperature
+		MAX31865_get_RTD
+			MAX31865_read_word
+				MAX31865_read_byte
+					SPI_Write
+						__DoIFC
+					SPI_Read
+						__DoIFC
+		Int2Double
+			level2Double
+		Mul_32x32_FP
+		Div_32x32_FP
+		Sub_32x32_FP
+			Add_32x32_FP
+		Double2Ints
+Timer_ISR
+	Div_16x16_U
+	segment_write
+		write_74HC595
