@@ -1,0 +1,19 @@
+0	1	mikroc8051.exe -MSF -DBG -pC8051F330 -ES -DL -O11111114 -fo6.125 -N"E:\Current_Works\C8051F3xx Tutorial\Code\PCA - Frequency Output\TX\ir_tx.mcp51" -SP"d:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\" -SP"E:\Current_Works\C8051F3xx Tutorial\Code\PCA - Frequency Output\TX\" -SP"E:\Current_Works\C8051F3xx Tutorial\Code\PCA - HF Timer\TX\" -SP"D:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\SILABS\" "ir_tx.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_ADC_Negative_Input.mcl" "__Lib_UART_Timer1_XBR_Shift.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'E:\Current_Works\C8051F3xx Tutorial\Code\PCA - HF Timer\TX'	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 402	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	ir_tx.c
+hint: 0	1004	interrupt handler (Timer_ISR at 0x0073)	ir_tx.c
+warning: 102	1509	Generated baud rate is 1198 bps (error = 0.15 percent)	ir_tx.c
+diagnostics: 242	123	Compiled Successfully	ir_tx.c
+hint: 99	1164	Variable 't' has been eliminated by optimizer	ir_tx.c
+diagnostics: 0	127	All files Compiled in 47 ms	 
+hint: 0	1144	Used BDATA RAM (bytes): 0 (1%) Free BDATA RAM (bytes): 16 (99%)	Used BDATA RAM (bytes): 0 (1%) Free BDATA RAM (bytes): 16 (99%)
+hint: 0	1144	Used DATA RAM (bytes): 21 (20%) Free DATA RAM (bytes): 83 (80%)	Used DATA RAM (bytes): 21 (20%) Free DATA RAM (bytes): 83 (80%)
+hint: 0	1144	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)
+hint: 0	1144	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)	Used XDATA RAM (bytes): 0 (1%) Free XDATA RAM (bytes): 512 (99%)
+hint: 0	1144	Used ROM (bytes): 1862 (23%)  Free ROM (bytes): 6330 (77%)	Used ROM (bytes): 1862 (23%)  Free ROM (bytes): 6330 (77%)
+diagnostics: 0	125	Project Linked Successfully	ir_tx.mcp51
+diagnostics: 0	128	Linked in 16 ms	 
+diagnostics: 0	129	Project 'ir_tx.mcp51' completed: 125 ms	 
+diagnostics: 0	103	Finished successfully: 16 Jul 2022, 14:16:53	ir_tx.mcp51

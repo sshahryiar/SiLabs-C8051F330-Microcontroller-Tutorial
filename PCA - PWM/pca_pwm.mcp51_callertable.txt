@@ -1,0 +1,12 @@
+main
+	__CC2D
+	Init_Device
+		PCA_Init
+		Port_IO_Init
+		Oscillator_Init
+	PWM_1_duty_cycle
+		get_HB_LB
+	PWM_2_duty_cycle
+		get_HB_LB
+	PWM_0_duty_cycle
+		get_HB_LB

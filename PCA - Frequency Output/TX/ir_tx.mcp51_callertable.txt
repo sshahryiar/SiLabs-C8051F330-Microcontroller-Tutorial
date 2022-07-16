@@ -1,0 +1,26 @@
+main
+	__CC2D
+	Init_Device
+		PCA_Init
+		Timer_Init
+		UART_Init
+		ADC_Init
+		Voltage_Reference_Init
+		Port_IO_Init
+		Oscillator_Init
+		Interrupts_Init
+	UART1_Init
+	ADC1_Init_Advanced
+	ADC1_Get_Sample
+	Word2Double
+		level2Double
+	Mul_32x32_FP
+	Double2Ints
+	Div_32x32_FP
+	Sub_32x32_FP
+		Add_32x32_FP
+	UART1_Write
+Timer_ISR
+	Div_16x16_U
+	segment_write
+		write_74HC595
